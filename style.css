@@ -1,0 +1,35 @@
+h1{
+    color: white;
+    border: 3px solid aquamarine;
+    background-color: rebeccapurple ;
+}
+
+.biru:hover{
+    background-color: tomato;
+    /* transition: 250ms; */
+    font-size: 40px;
+}
+
+.biru{
+    transition: 250ms;
+}
+
+.textF{
+    font-size: 30px;
+    color: slateblue;
+}
+
+.buttonQ{
+    /* background-color: springgreen; */
+    width: 100px;
+    outline: none !important;
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    transition: 250ms;
+
+}
+.buttonQ:active{
+    width: 300px;
+}
